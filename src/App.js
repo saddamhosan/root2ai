@@ -8,6 +8,7 @@ import './App.css';
 function App() {
   return (
     <div>
+      {/* ----header Start---- */}
       <header>
         <div className="headerContact">
           <p className="icons">
@@ -49,11 +50,11 @@ function App() {
           </p>
         </div>
       </header>
-
       <section className="logo">
         <h1>LOGO</h1>
       </section>
-
+      {/* ----header End---- */}
+      {/* ----Menu Start---- */}
       <section className="menu">
         <div>
           <FaHome />
@@ -66,7 +67,8 @@ function App() {
         <div></div>
         <div></div>
       </section>
-
+      {/* ----header End---- */}
+      {/* ----Project section Start---- */}
       <section>
         <div className="projectReport">
           <h1>Project Report</h1>
@@ -76,7 +78,8 @@ function App() {
         </div>
         <p className="text">Text.....</p>
       </section>
-
+      {/* ----Project section end---- */}
+      {/* ----Footer Start---- */}
       <footer>
         <div className="contact">
           <p className="icons">
@@ -111,6 +114,7 @@ function App() {
           <small>Copyright &#169;2022</small>
         </p>
       </footer>
+      {/* ----Footer End---- */}
     </div>
   );
 }
